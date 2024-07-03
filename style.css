@@ -1,0 +1,113 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 20px; /* El tamaño de la fuente principal en el tag  */
+    background-color: #cae6e0ad; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+
+
+img {
+    width: 250px;
+    padding-left: 10%;
+
+}
+h2{
+  color: rgb(126, 182, 204) ;  
+}
+h1 {  
+    font-family: Arial, Helvetica, sans-serif; /* Tipo de letra */
+    color: rgb(126, 182, 204);   /* Color del texto */             
+    font-style: normal;             /* Estilo de la letra */
+          
+ 
+  }
+
+  @keyframes variant-words {
+    0% {
+        text-align: center;
+        font-size: 40px;
+    }
+ 
+    50% {
+      font-size: 50px;
+      text-align: center;
+    }
+   
+    90% {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+}
+
+
+h1  {
+    animation: variant-words 8s infinite;
+    text-align: center;
+}
+
+
+
+
+@keyframes variant-background {
+    0%{
+
+        background-color: #cae6e0ad;
+    }
+ 
+    50% {
+      
+    background-color: #97d4c7ad;
+
+    }
+   
+    90% {
+     background-color: #b8db9b;
+      
+
+    }
+
+      
+        
+
+    
+}
+
+body{
+    animation: variant-background 10s infinite;
+
+}
+
+@keyframes imagenes {
+    0% {
+        padding-left: 10%;
+    }
+    10%{
+        padding-left: 20%;
+    }
+    20%{
+        padding-left: 30%;
+    }
+        30%{
+        padding-left: 40%;
+    }
+         40%{
+        padding-left: 50%;
+        }
+        50%{
+            padding-left: 60%;
+        }
+        60%{
+            padding-left: 70%;
+            }
+            70%{
+                padding-left: 80%;
+                }
+                80%{
+                    padding-left: 90%;
+                }
+              
+}
+img{
+    animation: imagenes 10s infinite;
+}
